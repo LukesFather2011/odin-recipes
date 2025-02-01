@@ -2,6 +2,15 @@ html {
     background-color: #F4D793;
 }
 
+.header {
+    background-color: #889E73;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
+
 hr {
     border-color: #A94A4A;
 }
