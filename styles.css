@@ -15,7 +15,7 @@ html {
     background-color: #CEDF9F;
 }
 
-.title {
+.title {  /* Needed the banner to be centered and stretch over the other elements */
     height: auto;
     width: 1300px;
     text-align: center;
@@ -39,17 +39,17 @@ html {
     border-bottom: 1px dashed black;
 }
 
-.description img {
+.description img { 
     height: auto;
     width: 350px;
     margin: auto;
 }
 
-.chef-hat {
+.chef-hat {  /* Wanted to fill whitespace between description and recipe-list */
     height: auto;
     width: 300px;
     margin-left: 75px;
-    margin-right: -75px;
+    margin-right: -75px; /* Had to account for push the list to the right */
 }
 
 .recipe-list {
@@ -61,7 +61,7 @@ html {
     border: 1px solid black;
     margin-left: 174px;
     margin-top: 20px;
-    position: fixed;
+    position: fixed;  /* The only way I could get the div's top to align with the description div */
 }
 
 .recipe-list li {
