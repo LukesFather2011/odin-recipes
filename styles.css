@@ -7,8 +7,11 @@ html {
     background-color: #A1D6B2;
 }
 
+.menu {
+    width: 1200px;
+    margin: auto;
+}
 
-/* Styles for index.html */
 .title,
 .description,
 .recipe-list {
@@ -23,6 +26,8 @@ html {
     margin: 20px 20px 20px 100px
 }
 
+
+/* Styles for index.html */
 .description {
     display: inline-block; /* Needed to get description and Recipes next to each other */
     height: auto;
