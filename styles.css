@@ -7,6 +7,7 @@ html {
     background-color: #A1D6B2;
 }
 
+
 /* Styles for index.html */
 .title,
 .description,
@@ -52,6 +53,8 @@ html {
     padding-left: 20px;
     border: 1px solid black;
     margin-left: 474px;
+    margin-top: 20px;
+    position: fixed;
 }
 
 .recipe-list li {
