@@ -45,6 +45,13 @@ html {
     margin: auto;
 }
 
+.chef-hat {
+    height: auto;
+    width: 300px;
+    margin-left: 75px;
+    margin-right: -75px;
+}
+
 .recipe-list {
     display: inline-block;
     height: auto;
@@ -52,7 +59,7 @@ html {
     text-align: left;
     padding-left: 20px;
     border: 1px solid black;
-    margin-left: 474px;
+    margin-left: 174px;
     margin-top: 20px;
     position: fixed;
 }
