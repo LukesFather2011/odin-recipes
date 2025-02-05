@@ -1,4 +1,8 @@
-/* Color for all pages */
+/* All pages */
+* {
+    box-sizing: border-box;
+}
+
 html {
     background-color: #A1D6B2;
 }
@@ -7,4 +11,21 @@ html {
 .title,
 .description {
     background-color: #CEDF9F;
+}
+
+.title {
+    height: auto;
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px 20px 20px 100px
+}
+
+.description {
+    height: auto;
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px 20px 20px 100px
 }
