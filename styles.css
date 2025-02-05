@@ -9,7 +9,8 @@ html {
 
 /* Styles for index.html */
 .title,
-.description {
+.description,
+.recipe-list {
     background-color: #CEDF9F;
 }
 
@@ -24,8 +25,22 @@ html {
 .description {
     height: auto;
     width: 400px;
-    text-align: center;
+    text-align: left;
+    font-size: 18px;
     border: 1px solid black;
     padding: 20px;
     margin: 20px 20px 20px 100px
+}
+
+.recipe-list {
+    height: auto;
+    width: 400px;
+    text-align: left;
+    padding-left: 20px;
+    border: 1px solid black;
+    margin: 20px 20px 20px 100px
+}
+
+.recipe-list li {
+    font-size: 18px;
 }
