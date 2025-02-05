@@ -32,6 +32,17 @@ html {
     margin: 20px 20px 20px 100px
 }
 
+.description p {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.description img {
+    height: auto;
+    width: 350px;
+    margin: auto;
+}
+
 .recipe-list {
     height: auto;
     width: 400px;
